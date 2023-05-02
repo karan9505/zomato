@@ -37,7 +37,7 @@ public class UserInfo {
     @Column(name = "login_status", unique = false, updatable = true, nullable = false)
     private Boolean loginstatus;
 
-    @Column(name = "role", unique = false, updatable = false, nullable = false)
+    @Column(name = "role", unique = false, updatable = true, nullable = false)
     private Integer role = 1;
 
     public Integer getUserid() {
